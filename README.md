@@ -37,6 +37,33 @@
 Уникальные посетители считаются по User Agent и IP-адресу.
 
 
+##Установка через composer
+
+#composer.json
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "pk1z/server_yametrika",
+                "version": "1.0.2",
+                "source": {
+                    "url": "https://github.com/pk1z/server_yametrika",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ]
+
+    "require": {
+        "hcodes/server_yametrika": "*"
+    }
+#app/autoload.php
+$loader->add('Hcodes', __DIR__.'/../vendor/pk1z/server_yametrika/lib' );
+$loader->register();
+
+
+
 ## Как использовать
 Посещение страницы:
   ```PHP
