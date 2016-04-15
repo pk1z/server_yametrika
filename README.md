@@ -56,10 +56,10 @@
     ]
 
     "require": {
-        "hcodes/server_yametrika": "*"
+        "pk1z/server_yametrika": "*"
     }
 #app/autoload.php
-$loader->add('Hcodes', __DIR__.'/../vendor/pk1z/server_yametrika/lib' );
+$loader->add('Pk1z', __DIR__.'/../vendor/pk1z/server_yametrika/lib' );
 $loader->register();
 
 

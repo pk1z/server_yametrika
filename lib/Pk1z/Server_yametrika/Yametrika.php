@@ -1,5 +1,5 @@
 <?php
-namespace Hcodes\Server_yametrika;
+namespace Pk1z\Server_yametrika;
 
 /*
     Author: Seleznev Denis, hcodes@yandex.ru
